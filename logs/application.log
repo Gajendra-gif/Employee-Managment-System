@@ -1,0 +1,269 @@
+2026-10-24T18:04:31.388+05:30  INFO 18100 --- [CRUDREST] [restartedMain] in.ashokit.app.CrudrestApplication       : Starting CrudrestApplication using Java 21.0.7 with PID 18100 (E:\SpringBoot\REST_Api\REstAPI\CRUDREST\target\classes started by hp in E:\SpringBoot\REST_Api\REstAPI\CRUDREST)
+2026-10-24T18:04:31.395+05:30 DEBUG 18100 --- [CRUDREST] [restartedMain] in.ashokit.app.CrudrestApplication       : Running with Spring Boot v4.0.6, Spring v7.0.7
+2026-10-24T18:04:31.396+05:30  INFO 18100 --- [CRUDREST] [restartedMain] in.ashokit.app.CrudrestApplication       : No active profile set, falling back to 1 default profile: "default"
+2026-10-24T18:04:31.482+05:30  INFO 18100 --- [CRUDREST] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-10-24T18:04:31.483+05:30  INFO 18100 --- [CRUDREST] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-10-24T18:04:32.977+05:30  INFO 18100 --- [CRUDREST] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2026-10-24T18:04:32.981+05:30  INFO 18100 --- [CRUDREST] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-10-24T18:04:33.206+05:30  INFO 18100 --- [CRUDREST] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 203 ms. Found 1 JPA repository interface.
+2026-10-24T18:04:33.237+05:30  INFO 18100 --- [CRUDREST] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2026-10-24T18:04:33.239+05:30  INFO 18100 --- [CRUDREST] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2026-10-24T18:04:33.260+05:30  INFO 18100 --- [CRUDREST] [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface in.ashokit.app.repository.EmployeeRepsitory; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+2026-10-24T18:04:33.261+05:30  INFO 18100 --- [CRUDREST] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 5 ms. Found 0 Redis repository interfaces.
+2026-10-24T18:04:34.139+05:30  INFO 18100 --- [CRUDREST] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8787 (http)
+2026-10-24T18:04:34.165+05:30  INFO 18100 --- [CRUDREST] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-10-24T18:04:34.165+05:30  INFO 18100 --- [CRUDREST] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.21]
+2026-10-24T18:04:34.303+05:30  INFO 18100 --- [CRUDREST] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 2819 ms
+2026-10-24T18:04:35.286+05:30  INFO 18100 --- [CRUDREST] [restartedMain] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-10-24T18:04:35.404+05:30  INFO 18100 --- [CRUDREST] [restartedMain] org.hibernate.orm.core                   : HHH000001: Hibernate ORM core version 7.2.12.Final
+2026-10-24T18:04:36.274+05:30  INFO 18100 --- [CRUDREST] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-10-24T18:04:36.332+05:30  INFO 18100 --- [CRUDREST] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-10-24T18:04:37.021+05:30  INFO 18100 --- [CRUDREST] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@17f1adde
+2026-10-24T18:04:37.025+05:30  INFO 18100 --- [CRUDREST] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-10-24T18:04:37.136+05:30  WARN 18100 --- [CRUDREST] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-10-24T18:04:37.173+05:30  INFO 18100 --- [CRUDREST] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/test]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 8.4.7
+	Default catalog/schema: test/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-10-24T18:04:38.334+05:30  INFO 18100 --- [CRUDREST] [restartedMain] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-10-24T18:04:38.430+05:30  INFO 18100 --- [CRUDREST] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-10-24T18:04:38.664+05:30  INFO 18100 --- [CRUDREST] [restartedMain] o.s.d.j.r.query.QueryEnhancerFactories   : Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-10-24T18:04:39.094+05:30  WARN 18100 --- [CRUDREST] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-10-24T18:04:39.846+05:30  INFO 18100 --- [CRUDREST] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8787 (http) with context path '/'
+2026-10-24T18:04:39.856+05:30  INFO 18100 --- [CRUDREST] [restartedMain] in.ashokit.app.CrudrestApplication       : Started CrudrestApplication in 9.443 seconds (process running for 10.652)
+2026-10-24T18:05:06.704+05:30  INFO 18100 --- [CRUDREST] [http-nio-8787-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-10-24T18:05:06.704+05:30  INFO 18100 --- [CRUDREST] [http-nio-8787-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-10-24T18:05:06.706+05:30  INFO 18100 --- [CRUDREST] [http-nio-8787-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2026-10-24T18:05:06.762+05:30  INFO 18100 --- [CRUDREST] [http-nio-8787-exec-1] i.a.app.controller.EmployeeController    : Get All Employees request recieved
+2026-10-24T18:05:07.516+05:30  INFO 18100 --- [CRUDREST] [http-nio-8787-exec-1] i.a.app.controller.EmployeeController    : Get all Employees completed; count =13
+2026-10-24T18:20:54.195+05:30  INFO 18100 --- [CRUDREST] [http-nio-8787-exec-3] in.ashokit.app.service.EmployeeService   : Fetching Employee ; id=112
+2026-10-24T18:20:54.291+05:30  INFO 18100 --- [CRUDREST] [http-nio-8787-exec-3] in.ashokit.app.service.EmployeeService   : Deleting Employee ; id=112
+2026-10-24T18:20:54.335+05:30  INFO 18100 --- [CRUDREST] [http-nio-8787-exec-3] in.ashokit.app.service.EmployeeService   : Employee Deleted successfully ; id=112
+2026-10-24T18:21:35.128+05:30  INFO 18100 --- [CRUDREST] [http-nio-8787-exec-4] i.a.app.controller.EmployeeController    : Get All Employees request recieved
+2026-10-24T18:21:35.130+05:30  INFO 18100 --- [CRUDREST] [http-nio-8787-exec-4] i.a.app.controller.EmployeeController    : Get all Employees completed; count =13
+2026-10-24T18:23:32.399+05:30  INFO 18100 --- [CRUDREST] [SpringApplicationShutdownHook] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-10-24T18:23:32.407+05:30  INFO 18100 --- [CRUDREST] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-10-24T18:23:32.418+05:30  INFO 18100 --- [CRUDREST] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-10-24T18:23:32.421+05:30  INFO 18100 --- [CRUDREST] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-10-24T18:23:32.427+05:30  INFO 18100 --- [CRUDREST] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2026-10-24T18:23:42.917+05:30  INFO 836 --- [CRUDREST] [restartedMain] in.ashokit.app.CrudrestApplication       : Starting CrudrestApplication using Java 21.0.7 with PID 836 (E:\SpringBoot\REST_Api\REstAPI\CRUDREST\target\classes started by hp in E:\SpringBoot\REST_Api\REstAPI\CRUDREST)
+2026-10-24T18:23:42.920+05:30 DEBUG 836 --- [CRUDREST] [restartedMain] in.ashokit.app.CrudrestApplication       : Running with Spring Boot v4.0.6, Spring v7.0.7
+2026-10-24T18:23:42.921+05:30  INFO 836 --- [CRUDREST] [restartedMain] in.ashokit.app.CrudrestApplication       : No active profile set, falling back to 1 default profile: "default"
+2026-10-24T18:23:42.974+05:30  INFO 836 --- [CRUDREST] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-10-24T18:23:42.974+05:30  INFO 836 --- [CRUDREST] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-10-24T18:23:43.686+05:30  INFO 836 --- [CRUDREST] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2026-10-24T18:23:43.687+05:30  INFO 836 --- [CRUDREST] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-10-24T18:23:43.801+05:30  INFO 836 --- [CRUDREST] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 107 ms. Found 1 JPA repository interface.
+2026-10-24T18:23:43.827+05:30  INFO 836 --- [CRUDREST] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2026-10-24T18:23:43.828+05:30  INFO 836 --- [CRUDREST] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2026-10-24T18:23:43.841+05:30  INFO 836 --- [CRUDREST] [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface in.ashokit.app.repository.EmployeeRepsitory; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+2026-10-24T18:23:43.841+05:30  INFO 836 --- [CRUDREST] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 4 ms. Found 0 Redis repository interfaces.
+2026-10-24T18:23:44.361+05:30  INFO 836 --- [CRUDREST] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8787 (http)
+2026-10-24T18:23:44.383+05:30  INFO 836 --- [CRUDREST] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-10-24T18:23:44.383+05:30  INFO 836 --- [CRUDREST] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.21]
+2026-10-24T18:23:44.440+05:30  INFO 836 --- [CRUDREST] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 1465 ms
+2026-10-24T18:23:44.890+05:30  INFO 836 --- [CRUDREST] [restartedMain] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-10-24T18:23:44.933+05:30  INFO 836 --- [CRUDREST] [restartedMain] org.hibernate.orm.core                   : HHH000001: Hibernate ORM core version 7.2.12.Final
+2026-10-24T18:23:45.287+05:30  INFO 836 --- [CRUDREST] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-10-24T18:23:45.309+05:30  INFO 836 --- [CRUDREST] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-10-24T18:23:45.583+05:30  INFO 836 --- [CRUDREST] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@484e3167
+2026-10-24T18:23:45.585+05:30  INFO 836 --- [CRUDREST] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-10-24T18:23:45.625+05:30  WARN 836 --- [CRUDREST] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-10-24T18:23:45.641+05:30  INFO 836 --- [CRUDREST] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/test]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 8.4.7
+	Default catalog/schema: test/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-10-24T18:23:46.302+05:30  INFO 836 --- [CRUDREST] [restartedMain] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-10-24T18:23:46.356+05:30  INFO 836 --- [CRUDREST] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-10-24T18:23:46.462+05:30  INFO 836 --- [CRUDREST] [restartedMain] o.s.d.j.r.query.QueryEnhancerFactories   : Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-10-24T18:23:46.763+05:30  WARN 836 --- [CRUDREST] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-10-24T18:23:47.233+05:30  INFO 836 --- [CRUDREST] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8787 (http) with context path '/'
+2026-10-24T18:23:47.240+05:30  INFO 836 --- [CRUDREST] [restartedMain] in.ashokit.app.CrudrestApplication       : Started CrudrestApplication in 4.817 seconds (process running for 5.4)
+2026-10-24T18:23:54.859+05:30  INFO 836 --- [CRUDREST] [http-nio-8787-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-10-24T18:23:54.860+05:30  INFO 836 --- [CRUDREST] [http-nio-8787-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-10-24T18:23:54.862+05:30  INFO 836 --- [CRUDREST] [http-nio-8787-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2026-10-24T18:23:54.892+05:30  INFO 836 --- [CRUDREST] [http-nio-8787-exec-1] i.a.app.controller.EmployeeController    : Get All Employees request recieved
+2026-10-24T18:23:55.341+05:30  INFO 836 --- [CRUDREST] [http-nio-8787-exec-1] i.a.app.controller.EmployeeController    : Get all Employees completed; count =13
+2026-10-24T18:24:05.366+05:30  INFO 836 --- [CRUDREST] [http-nio-8787-exec-2] i.a.app.controller.EmployeeController    : Get All Employees request recieved
+2026-10-24T18:24:05.367+05:30  INFO 836 --- [CRUDREST] [http-nio-8787-exec-2] i.a.app.controller.EmployeeController    : Get all Employees completed; count =13
+2026-10-24T18:25:50.730+05:30  INFO 836 --- [CRUDREST] [http-nio-8787-exec-4] i.a.app.controller.EmployeeController    : Get All Employees request recieved
+2026-10-24T18:25:50.733+05:30  INFO 836 --- [CRUDREST] [http-nio-8787-exec-4] i.a.app.controller.EmployeeController    : Get all Employees completed; count =13
+2026-10-24T18:27:21.215+05:30  INFO 836 --- [CRUDREST] [SpringApplicationShutdownHook] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-10-24T18:27:21.222+05:30  INFO 836 --- [CRUDREST] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-10-24T18:27:21.236+05:30  INFO 836 --- [CRUDREST] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-10-24T18:27:21.239+05:30  INFO 836 --- [CRUDREST] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-10-24T18:27:21.246+05:30  INFO 836 --- [CRUDREST] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2026-10-24T18:27:48.803+05:30  INFO 16056 --- [CRUDREST] [restartedMain] in.ashokit.app.CrudrestApplication       : Starting CrudrestApplication using Java 21.0.7 with PID 16056 (E:\SpringBoot\REST_Api\REstAPI\CRUDREST\target\classes started by hp in E:\SpringBoot\REST_Api\REstAPI\CRUDREST)
+2026-10-24T18:27:48.810+05:30 DEBUG 16056 --- [CRUDREST] [restartedMain] in.ashokit.app.CrudrestApplication       : Running with Spring Boot v4.0.6, Spring v7.0.7
+2026-10-24T18:27:48.813+05:30  INFO 16056 --- [CRUDREST] [restartedMain] in.ashokit.app.CrudrestApplication       : No active profile set, falling back to 1 default profile: "default"
+2026-10-24T18:27:48.872+05:30  INFO 16056 --- [CRUDREST] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-10-24T18:27:48.872+05:30  INFO 16056 --- [CRUDREST] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-10-24T18:27:49.586+05:30  INFO 16056 --- [CRUDREST] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2026-10-24T18:27:49.587+05:30  INFO 16056 --- [CRUDREST] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-10-24T18:27:49.714+05:30  INFO 16056 --- [CRUDREST] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 119 ms. Found 1 JPA repository interface.
+2026-10-24T18:27:49.731+05:30  INFO 16056 --- [CRUDREST] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2026-10-24T18:27:49.734+05:30  INFO 16056 --- [CRUDREST] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2026-10-24T18:27:49.746+05:30  INFO 16056 --- [CRUDREST] [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface in.ashokit.app.repository.EmployeeRepsitory; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+2026-10-24T18:27:49.746+05:30  INFO 16056 --- [CRUDREST] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 3 ms. Found 0 Redis repository interfaces.
+2026-10-24T18:27:50.288+05:30  INFO 16056 --- [CRUDREST] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8787 (http)
+2026-10-24T18:27:50.295+05:30  INFO 16056 --- [CRUDREST] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-10-24T18:27:50.295+05:30  INFO 16056 --- [CRUDREST] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.21]
+2026-10-24T18:27:50.359+05:30  INFO 16056 --- [CRUDREST] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 1487 ms
+2026-10-24T18:27:50.895+05:30  INFO 16056 --- [CRUDREST] [restartedMain] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-10-24T18:27:50.947+05:30  INFO 16056 --- [CRUDREST] [restartedMain] org.hibernate.orm.core                   : HHH000001: Hibernate ORM core version 7.2.12.Final
+2026-10-24T18:27:51.398+05:30  INFO 16056 --- [CRUDREST] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-10-24T18:27:51.426+05:30  INFO 16056 --- [CRUDREST] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-10-24T18:27:51.753+05:30  INFO 16056 --- [CRUDREST] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2094bb35
+2026-10-24T18:27:51.755+05:30  INFO 16056 --- [CRUDREST] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-10-24T18:27:51.797+05:30  WARN 16056 --- [CRUDREST] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-10-24T18:27:51.815+05:30  INFO 16056 --- [CRUDREST] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/test]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 8.4.7
+	Default catalog/schema: test/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-10-24T18:27:52.509+05:30  INFO 16056 --- [CRUDREST] [restartedMain] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-10-24T18:27:52.561+05:30  INFO 16056 --- [CRUDREST] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-10-24T18:27:52.662+05:30  INFO 16056 --- [CRUDREST] [restartedMain] o.s.d.j.r.query.QueryEnhancerFactories   : Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-10-24T18:27:52.937+05:30  WARN 16056 --- [CRUDREST] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-10-24T18:27:53.462+05:30  INFO 16056 --- [CRUDREST] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8787 (http) with context path '/'
+2026-10-24T18:27:53.472+05:30  INFO 16056 --- [CRUDREST] [restartedMain] in.ashokit.app.CrudrestApplication       : Started CrudrestApplication in 5.222 seconds (process running for 5.906)
+2026-10-24T18:27:59.729+05:30  INFO 16056 --- [CRUDREST] [http-nio-8787-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-10-24T18:27:59.730+05:30  INFO 16056 --- [CRUDREST] [http-nio-8787-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-10-24T18:27:59.731+05:30  INFO 16056 --- [CRUDREST] [http-nio-8787-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2026-10-24T18:27:59.769+05:30  INFO 16056 --- [CRUDREST] [http-nio-8787-exec-1] i.a.app.controller.EmployeeController    : Get All Employees request recieved
+2026-10-24T18:28:00.233+05:30  INFO 16056 --- [CRUDREST] [http-nio-8787-exec-1] i.a.app.controller.EmployeeController    : Get all Employees completed; count =13
+2026-10-24T18:30:49.174+05:30  INFO 16056 --- [CRUDREST] [SpringApplicationShutdownHook] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-10-24T18:30:49.181+05:30  INFO 16056 --- [CRUDREST] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-10-24T18:30:49.192+05:30  INFO 16056 --- [CRUDREST] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-10-24T18:30:49.194+05:30  INFO 16056 --- [CRUDREST] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-10-24T18:30:49.200+05:30  INFO 16056 --- [CRUDREST] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2026-10-24T18:31:08.806+05:30  INFO 12184 --- [CRUDREST] [restartedMain] in.ashokit.app.CrudrestApplication       : Starting CrudrestApplication using Java 21.0.7 with PID 12184 (E:\SpringBoot\REST_Api\REstAPI\CRUDREST\target\classes started by hp in E:\SpringBoot\REST_Api\REstAPI\CRUDREST)
+2026-10-24T18:31:08.809+05:30 DEBUG 12184 --- [CRUDREST] [restartedMain] in.ashokit.app.CrudrestApplication       : Running with Spring Boot v4.0.6, Spring v7.0.7
+2026-10-24T18:31:08.810+05:30  INFO 12184 --- [CRUDREST] [restartedMain] in.ashokit.app.CrudrestApplication       : No active profile set, falling back to 1 default profile: "default"
+2026-10-24T18:31:08.856+05:30  INFO 12184 --- [CRUDREST] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-10-24T18:31:08.857+05:30  INFO 12184 --- [CRUDREST] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-10-24T18:31:09.583+05:30  INFO 12184 --- [CRUDREST] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2026-10-24T18:31:09.585+05:30  INFO 12184 --- [CRUDREST] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-10-24T18:31:09.694+05:30  INFO 12184 --- [CRUDREST] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 101 ms. Found 1 JPA repository interface.
+2026-10-24T18:31:09.710+05:30  INFO 12184 --- [CRUDREST] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2026-10-24T18:31:09.711+05:30  INFO 12184 --- [CRUDREST] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2026-10-24T18:31:09.724+05:30  INFO 12184 --- [CRUDREST] [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface in.ashokit.app.repository.EmployeeRepsitory; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+2026-10-24T18:31:09.724+05:30  INFO 12184 --- [CRUDREST] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 4 ms. Found 0 Redis repository interfaces.
+2026-10-24T18:31:10.275+05:30  INFO 12184 --- [CRUDREST] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8787 (http)
+2026-10-24T18:31:10.300+05:30  INFO 12184 --- [CRUDREST] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-10-24T18:31:10.300+05:30  INFO 12184 --- [CRUDREST] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.21]
+2026-10-24T18:31:10.349+05:30  INFO 12184 --- [CRUDREST] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 1492 ms
+2026-10-24T18:31:10.790+05:30  INFO 12184 --- [CRUDREST] [restartedMain] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-10-24T18:31:10.866+05:30  INFO 12184 --- [CRUDREST] [restartedMain] org.hibernate.orm.core                   : HHH000001: Hibernate ORM core version 7.2.12.Final
+2026-10-24T18:31:11.278+05:30  INFO 12184 --- [CRUDREST] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-10-24T18:31:11.294+05:30  INFO 12184 --- [CRUDREST] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-10-24T18:31:11.589+05:30  INFO 12184 --- [CRUDREST] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@484e3167
+2026-10-24T18:31:11.589+05:30  INFO 12184 --- [CRUDREST] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-10-24T18:31:11.633+05:30  WARN 12184 --- [CRUDREST] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-10-24T18:31:11.650+05:30  INFO 12184 --- [CRUDREST] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/test]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 8.4.7
+	Default catalog/schema: test/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-10-24T18:31:12.298+05:30  INFO 12184 --- [CRUDREST] [restartedMain] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-10-24T18:31:12.350+05:30  INFO 12184 --- [CRUDREST] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-10-24T18:31:12.449+05:30  INFO 12184 --- [CRUDREST] [restartedMain] o.s.d.j.r.query.QueryEnhancerFactories   : Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-10-24T18:31:12.715+05:30  WARN 12184 --- [CRUDREST] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-10-24T18:31:13.239+05:30  INFO 12184 --- [CRUDREST] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8787 (http) with context path '/'
+2026-10-24T18:31:13.246+05:30  INFO 12184 --- [CRUDREST] [restartedMain] in.ashokit.app.CrudrestApplication       : Started CrudrestApplication in 4.938 seconds (process running for 5.478)
+2026-10-24T18:31:18.560+05:30  INFO 12184 --- [CRUDREST] [http-nio-8787-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-10-24T18:31:18.560+05:30  INFO 12184 --- [CRUDREST] [http-nio-8787-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-10-24T18:31:18.562+05:30  INFO 12184 --- [CRUDREST] [http-nio-8787-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2026-10-24T18:31:18.598+05:30  INFO 12184 --- [CRUDREST] [http-nio-8787-exec-1] i.a.app.controller.EmployeeController    : Get All Employees request recieved
+2026-10-24T18:31:18.598+05:30  INFO 12184 --- [CRUDREST] [http-nio-8787-exec-1] in.ashokit.app.service.EmployeeService   : Fetching all Employess : 
+2026-10-24T18:31:18.764+05:30  INFO 12184 --- [CRUDREST] [http-nio-8787-exec-1] i.a.app.controller.EmployeeController    : Get all Employees completed; count =10
+2026-10-24T18:31:54.354+05:30  INFO 12184 --- [CRUDREST] [SpringApplicationShutdownHook] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-10-24T18:31:54.360+05:30  INFO 12184 --- [CRUDREST] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-10-24T18:31:54.367+05:30  INFO 12184 --- [CRUDREST] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-10-24T18:31:54.370+05:30  INFO 12184 --- [CRUDREST] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-10-24T18:31:54.378+05:30  INFO 12184 --- [CRUDREST] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2026-10-24T18:32:00.320+05:30  INFO 25976 --- [CRUDREST] [restartedMain] in.ashokit.app.CrudrestApplication       : Starting CrudrestApplication using Java 21.0.7 with PID 25976 (E:\SpringBoot\REST_Api\REstAPI\CRUDREST\target\classes started by hp in E:\SpringBoot\REST_Api\REstAPI\CRUDREST)
+2026-10-24T18:32:00.325+05:30 DEBUG 25976 --- [CRUDREST] [restartedMain] in.ashokit.app.CrudrestApplication       : Running with Spring Boot v4.0.6, Spring v7.0.7
+2026-10-24T18:32:00.326+05:30  INFO 25976 --- [CRUDREST] [restartedMain] in.ashokit.app.CrudrestApplication       : No active profile set, falling back to 1 default profile: "default"
+2026-10-24T18:32:00.371+05:30  INFO 25976 --- [CRUDREST] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-10-24T18:32:00.373+05:30  INFO 25976 --- [CRUDREST] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-10-24T18:32:01.089+05:30  INFO 25976 --- [CRUDREST] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2026-10-24T18:32:01.091+05:30  INFO 25976 --- [CRUDREST] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-10-24T18:32:01.205+05:30  INFO 25976 --- [CRUDREST] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 105 ms. Found 1 JPA repository interface.
+2026-10-24T18:32:01.227+05:30  INFO 25976 --- [CRUDREST] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2026-10-24T18:32:01.229+05:30  INFO 25976 --- [CRUDREST] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2026-10-24T18:32:01.241+05:30  INFO 25976 --- [CRUDREST] [restartedMain] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface in.ashokit.app.repository.EmployeeRepsitory; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+2026-10-24T18:32:01.241+05:30  INFO 25976 --- [CRUDREST] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 3 ms. Found 0 Redis repository interfaces.
+2026-10-24T18:32:01.739+05:30  INFO 25976 --- [CRUDREST] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8787 (http)
+2026-10-24T18:32:01.762+05:30  INFO 25976 --- [CRUDREST] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-10-24T18:32:01.762+05:30  INFO 25976 --- [CRUDREST] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.21]
+2026-10-24T18:32:01.812+05:30  INFO 25976 --- [CRUDREST] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 1438 ms
+2026-10-24T18:32:02.268+05:30  INFO 25976 --- [CRUDREST] [restartedMain] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-10-24T18:32:02.326+05:30  INFO 25976 --- [CRUDREST] [restartedMain] org.hibernate.orm.core                   : HHH000001: Hibernate ORM core version 7.2.12.Final
+2026-10-24T18:32:02.709+05:30  INFO 25976 --- [CRUDREST] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-10-24T18:32:02.731+05:30  INFO 25976 --- [CRUDREST] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-10-24T18:32:03.018+05:30  INFO 25976 --- [CRUDREST] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@484e3167
+2026-10-24T18:32:03.020+05:30  INFO 25976 --- [CRUDREST] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-10-24T18:32:03.061+05:30  WARN 25976 --- [CRUDREST] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-10-24T18:32:03.077+05:30  INFO 25976 --- [CRUDREST] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/test]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 8.4.7
+	Default catalog/schema: test/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-10-24T18:32:03.725+05:30  INFO 25976 --- [CRUDREST] [restartedMain] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-10-24T18:32:03.782+05:30  INFO 25976 --- [CRUDREST] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-10-24T18:32:03.872+05:30  INFO 25976 --- [CRUDREST] [restartedMain] o.s.d.j.r.query.QueryEnhancerFactories   : Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-10-24T18:32:04.121+05:30  WARN 25976 --- [CRUDREST] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-10-24T18:32:04.593+05:30  INFO 25976 --- [CRUDREST] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8787 (http) with context path '/'
+2026-10-24T18:32:04.600+05:30  INFO 25976 --- [CRUDREST] [restartedMain] in.ashokit.app.CrudrestApplication       : Started CrudrestApplication in 4.758 seconds (process running for 5.284)
+2026-10-24T18:32:08.991+05:30  INFO 25976 --- [CRUDREST] [http-nio-8787-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-10-24T18:32:08.991+05:30  INFO 25976 --- [CRUDREST] [http-nio-8787-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-10-24T18:32:08.992+05:30  INFO 25976 --- [CRUDREST] [http-nio-8787-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2026-10-24T18:32:09.035+05:30  INFO 25976 --- [CRUDREST] [http-nio-8787-exec-1] i.a.app.controller.EmployeeController    : Get All Employees request recieved
+2026-10-24T18:32:09.035+05:30  INFO 25976 --- [CRUDREST] [http-nio-8787-exec-1] in.ashokit.app.service.EmployeeService   : Fetching all Employess : 
+2026-10-24T18:32:09.208+05:30  INFO 25976 --- [CRUDREST] [http-nio-8787-exec-1] i.a.app.controller.EmployeeController    : Get all Employees completed; count =10
+2026-10-24T18:47:56.314+05:30  WARN 25976 --- [CRUDREST] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=5m53s56ms706µs600ns).
+2026-10-24T19:00:32.704+05:30  WARN 25976 --- [CRUDREST] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m36s199ms391µs800ns).
+2026-10-24T19:04:20.997+05:30  WARN 25976 --- [CRUDREST] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=3m48s293ms219µs700ns).
+2026-10-24T19:16:54.204+05:30  INFO 25976 --- [CRUDREST] [SpringApplicationShutdownHook] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-10-24T19:16:54.220+05:30  INFO 25976 --- [CRUDREST] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-10-24T19:16:54.248+05:30  INFO 25976 --- [CRUDREST] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-10-24T19:16:54.258+05:30  INFO 25976 --- [CRUDREST] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-10-24T19:16:54.268+05:30  INFO 25976 --- [CRUDREST] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
